@@ -107,7 +107,7 @@ class HsAsCtLight(LightEntity, GroupEntity):
     _attr_available = False
     _attr_icon = "mdi:lightbulb"
     _attr_max_color_temp_kelvin = 6500
-    _attr_min_color_temp_kelvin = 1500
+    _attr_min_color_temp_kelvin = 2700
     _attr_color_mode = ColorMode.COLOR_TEMP
     _attr_supported_color_modes = set([ColorMode.COLOR_TEMP])
     _attr_should_poll = False
